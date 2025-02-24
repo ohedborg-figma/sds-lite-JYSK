@@ -10,7 +10,7 @@ import {
   MenuShortcut,
 } from "primitives";
 
-figma.connect(Menu, "<FIGMA_MENU_MENU>", {
+figma.connect(Menu, "https://figma.com/design/mpvqE89bE7Shsyf09TBKMT?node-id=9762:720", {
   props: {
     children: figma.children([
       "Menu Header",
