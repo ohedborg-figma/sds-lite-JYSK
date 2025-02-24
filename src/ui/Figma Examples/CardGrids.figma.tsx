@@ -2,7 +2,7 @@ import { figma } from "@figma/code-connect";
 import { useMediaQuery } from "hooks";
 import { Flex, FlexItem, Section } from "layout";
 
-figma.connect(Section, "<FIGMA_SECTIONS_CARD_GRID_ICON>", {
+figma.connect(Section, "https://figma.com/design/mpvqE89bE7Shsyf09TBKMT?node-id=348:13221", {
   props: {
     gap: figma.enum("Platform", { Desktop: "1200", Mobile: "600" }),
     padding: figma.enum("Platform", { Desktop: "1200", Mobile: "600" }),
