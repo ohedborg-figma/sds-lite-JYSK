@@ -3,7 +3,7 @@ import { FormBox } from "compositions";
 import { Flex } from "layout";
 import { Form } from "primitives";
 
-figma.connect(FormBox, "<FIGMA_FORMS_FORM_LOG_IN>", {
+figma.connect(FormBox, "https://figma.com/design/mpvqE89bE7Shsyf09TBKMT?node-id=197:19740", {
   props: {
     children: figma.children(["Input Field", "Button Group", "Text Link"]),
   },
