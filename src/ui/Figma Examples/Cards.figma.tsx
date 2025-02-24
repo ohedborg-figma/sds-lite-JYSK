@@ -10,7 +10,7 @@ import {
 import { placeholder } from "images";
 import { ButtonProps, Image, Text, TextHeading } from "primitives";
 
-figma.connect(Card, "<FIGMA_CARDS_CARD>", {
+figma.connect(Card, "https://figma.com/design/mpvqE89bE7Shsyf09TBKMT?node-id=2142-11380", {
   props: {
     asset: figma.enum("Asset Type", {
       Image: <Image alt="Always use alt text" aspectRatio="1-1" size="small" />,
